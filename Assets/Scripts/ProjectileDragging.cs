@@ -102,7 +102,7 @@ public class ProjectileDragging : MonoBehaviour {
     {
         spring.enabled = true;
         pigHead.isKinematic = false;
-        pigHead.angularDrag = 1.0f;
+        pigHead.angularDrag = 5.0f;
         pigHead.drag = 0.1f;
         clickedOn = false;
     }

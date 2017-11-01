@@ -84,7 +84,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\GameControlScript.cs" />
+    <Compile Include="Assets\Scripts\GameWonScript.cs" />
+    <Compile Include="Assets\Scripts\IntroductionScript.cs" />
     <Compile Include="Assets\Scripts\ProjectileDragging.cs" />
+    <Compile Include="Assets\Scripts\ProjectileFollow.cs" />
+    <Compile Include="Assets\Scripts\Resetter.cs" />
+    <Compile Include="Assets\Scripts\TargetDamage.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Sprites\jumperpack_kenney\License.txt" />
